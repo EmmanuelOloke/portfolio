@@ -1,12 +1,35 @@
 import React from 'react';
+import { useRef } from 'react';
 
-import { Icon, Flex, Box, Link, IconButton, useColorMode } from '@chakra-ui/react';
-import { FaCode, FaSun, FaMoon } from 'react-icons/fa';
+import {
+  Icon,
+  Flex,
+  Box,
+  Link,
+  Button,
+  IconButton,
+  useColorMode,
+  useDisclosure,
+  Drawer,
+  Text,
+  DrawerBody,
+  DrawerOverlay,
+  DrawerContent,
+  DrawerCloseButton,
+} from '@chakra-ui/react';
+import { FaCode, FaSun, FaMoon, FaBars, FaTimes } from 'react-icons/fa';
 
 const NavBar = () => {
   const { colorMode, toggleColorMode } = useColorMode();
+  const { isOpen, onOpen, onClose } = useDisclosure();
+  const navRef = useRef<null | HTMLButtonElement>(null);
+
   return (
-    <Flex justifyContent="center" boxShadow="md">
+    <Flex
+      justifyContent="center"
+      boxShadow="0 4px 30px rgba(0, 0, 0, 0.1)"
+      backdropFilter="blur(12px)"
+    >
       <Flex
         justifyContent="space-between"
         py={5}
@@ -18,15 +41,101 @@ const NavBar = () => {
           <Icon as={FaCode} fontSize="3xl" />
         </Box>
 
-        <Flex gap={14} fontSize="md" textTransform="uppercase" alignItems="center">
-          <Link>About</Link>
-          <Link>Projects</Link>
-          <Link>Contacts</Link>
+        <Flex gap={14} alignItems="center" textTransform="uppercase" fontWeight="bold">
+          <Link
+            display={{
+              base: 'none',
+              sm: 'none',
+              md: 'none',
+              lg: 'block',
+              xl: 'block',
+              '2xl': 'block',
+            }}
+          >
+            About
+          </Link>
+          <Link
+            display={{
+              base: 'none',
+              sm: 'none',
+              md: 'none',
+              lg: 'block',
+              xl: 'block',
+              '2xl': 'block',
+            }}
+          >
+            Projects
+          </Link>
+          <Link
+            display={{
+              base: 'none',
+              sm: 'none',
+              md: 'none',
+              lg: 'block',
+              xl: 'block',
+              '2xl': 'block',
+            }}
+          >
+            Contact
+          </Link>
           <IconButton
+            display={{
+              base: 'none',
+              sm: 'none',
+              md: 'none',
+              lg: 'block',
+              xl: 'block',
+              '2xl': 'block',
+            }}
+            alignItems="center"
             aria-label="icon"
             icon={colorMode === 'light' ? <FaMoon /> : <FaSun />}
             onClick={toggleColorMode}
           />
+          <Button
+            display={{
+              base: 'block',
+              sm: 'block',
+              md: 'block',
+              lg: 'none',
+              xl: 'none',
+              '2xl': 'none',
+            }}
+            ref={navRef}
+            onClick={onOpen}
+          >
+            <FaBars />
+          </Button>
+
+          <Drawer isOpen={isOpen} placement="right" onClose={onClose} finalFocusRef={navRef}>
+            <DrawerOverlay />
+            <DrawerContent>
+              <DrawerCloseButton />
+
+              <DrawerBody
+                display="flex"
+                flexDirection="column"
+                alignItems="center"
+                gap={8}
+                textTransform="uppercase"
+                fontWeight="bold"
+                marginTop={20}
+              >
+                <Text textTransform="capitalize" fontSize="large">
+                  Emmanuel Oloke
+                </Text>
+                <Link>About</Link>
+                <Link>Projects</Link>
+                <Link>Contact</Link>
+                <Button>Resume</Button>
+                <IconButton
+                  aria-label="icon"
+                  icon={colorMode === 'light' ? <FaMoon /> : <FaSun />}
+                  onClick={toggleColorMode}
+                />
+              </DrawerBody>
+            </DrawerContent>
+          </Drawer>
         </Flex>
       </Flex>
     </Flex>
