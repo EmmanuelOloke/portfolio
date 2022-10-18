@@ -80,21 +80,21 @@ const NavBar = () => {
           </Link>
           <IconButton
             display={{
-              base: 'none',
+              base: 'flex',
               sm: 'none',
               md: 'none',
-              lg: 'block',
-              xl: 'block',
-              '2xl': 'block',
+              lg: 'flex',
+              xl: 'flex',
+              '2xl': 'flex',
             }}
-            alignItems="center"
+            background="none"
             aria-label="icon"
             icon={colorMode === 'light' ? <FaMoon /> : <FaSun />}
             onClick={toggleColorMode}
           />
           <Button
             display={{
-              base: 'block',
+              base: 'none',
               sm: 'block',
               md: 'block',
               lg: 'none',
