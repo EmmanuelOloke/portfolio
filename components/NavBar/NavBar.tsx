@@ -80,7 +80,7 @@ const NavBar = () => {
           </Link>
           <IconButton
             display={{
-              base: 'flex',
+              base: 'none',
               sm: 'none',
               md: 'none',
               lg: 'flex',
@@ -94,7 +94,7 @@ const NavBar = () => {
           />
           <Button
             display={{
-              base: 'none',
+              base: 'block',
               sm: 'block',
               md: 'block',
               lg: 'none',
@@ -127,7 +127,16 @@ const NavBar = () => {
                 <Link>About</Link>
                 <Link>Projects</Link>
                 <Link>Contact</Link>
-                <Button>Resume</Button>
+                <Link
+                  href="/resume.pdf"
+                  target="_blank"
+                  outline="solid"
+                  px={6}
+                  py={2}
+                  borderRadius={3}
+                >
+                  Resume
+                </Link>
                 <IconButton
                   aria-label="icon"
                   icon={colorMode === 'light' ? <FaMoon /> : <FaSun />}
