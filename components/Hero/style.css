@@ -19,9 +19,17 @@
 
   .text-gradient {
     color: transparent;
-    background: linear-gradient(60deg, #f79533, #f37055, #ef4e7b, #a166ab, #5073b8, #1098ad, #07b39b, #6fba82);
+    background: linear-gradient(60deg, #f79533, #f37055, #ef4e7b, cyan, #a166ab, #5073b8, #1098ad, #07b39b, #6fba82);
+    -webkit-background-clip: text;
     background-clip: text;
-    animation: animatedgradient 3s ease alternate infinite;
+    background-size: 200%;
+    animation: animatedText 5s infinite alternate-reverse;
+  }
+
+  @keyframes animatedText {
+    to {
+      background-position: 100%;
+    }
   }
 
   .resume-btn {
