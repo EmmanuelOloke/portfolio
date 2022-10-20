@@ -36,6 +36,7 @@ const Hero = () => {
           Hey there <span className="wave">👋🏾</span> I am
         </Text>
         <Text
+          className="text-gradient"
           fontSize={{ base: '4xl', sm: '4xl', md: '4xl', lg: '5xl', xl: '5xl', '2xl': '5xl' }}
           fontWeight="bold"
         >
