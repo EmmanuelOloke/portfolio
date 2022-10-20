@@ -108,7 +108,7 @@ const NavBar = () => {
           </Button>
 
           <Drawer isOpen={isOpen} placement="right" onClose={onClose} finalFocusRef={navRef}>
-            <DrawerOverlay />
+            <DrawerOverlay backdropFilter="blur(2px)" />
             <DrawerContent>
               <DrawerCloseButton />
 
