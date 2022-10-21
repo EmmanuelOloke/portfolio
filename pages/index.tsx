@@ -5,12 +5,14 @@ import styles from '../styles/Home.module.css';
 
 import NavBar from '../components/NavBar/NavBar';
 import Hero from '../components/Hero/Hero';
+import About from '../components/About/About';
 
 const Home: NextPage = () => {
   return (
     <>
       <NavBar />
       <Hero />
+      <About />
     </>
   );
 };
