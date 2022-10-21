@@ -7,6 +7,7 @@ import { config } from '@fortawesome/fontawesome-svg-core';
 config.autoAddCss = false;
 
 import '../components/Hero/style.css';
+import '../components/About/style.css';
 
 function MyApp({ Component, pageProps }: AppProps) {
   return (
