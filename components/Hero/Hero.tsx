@@ -28,7 +28,7 @@ const Hero = () => {
         xl: 'center',
         '2xl': 'center',
       }}
-      mt={{ base: '8rem', sm: '8rem', md: '8rem', lg: 40, xl: 40, '2xl': 40 }}
+      mt={{ base: '8rem', sm: '8rem', md: '8rem', lg: '12rem', xl: '15rem', '2xl': '20rem' }}
       gap={{ base: 20, sm: 20, md: 20, lg: 60, xl: 60, '2xl': 60 }}
     >
       <Box>
