@@ -26,9 +26,13 @@ const NavBar = () => {
 
   return (
     <Flex
+      position={'fixed'}
+      top={0}
+      width={'100%'}
       justifyContent="center"
       boxShadow="0 4px 30px rgba(0, 0, 0, 0.1)"
-      backdropFilter="blur(12px)"
+      backdropFilter="blur(5px)"
+      z-index={200}
     >
       <Flex
         justifyContent="space-between"
