@@ -76,6 +76,7 @@ const About = () => {
             '2xl': '2rem',
           }}
           opacity="0.7"
+          mb={'1rem'}
         >
           Here are few technologies I use:
         </Text>
