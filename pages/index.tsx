@@ -6,6 +6,7 @@ import styles from '../styles/Home.module.css';
 import NavBar from '../components/NavBar/NavBar';
 import Hero from '../components/Hero/Hero';
 import About from '../components/About/About';
+import Projects from '../components/Projects/Projects';
 
 const Home: NextPage = () => {
   return (
@@ -13,6 +14,7 @@ const Home: NextPage = () => {
       <NavBar />
       <Hero />
       <About />
+      <Projects />
     </>
   );
 };
