@@ -32,12 +32,12 @@
     }
   }
 
-  .resume-btn {
-    text-decoration: none;
+  .btn {
+    transition: 1s;
   }
 
-  .resume-btn:hover {
-    text-decoration: none;
+  .btn:hover{
+    transform: translateY(-5px)
   }
 
   .gradient-border {
