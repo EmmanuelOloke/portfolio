@@ -7,6 +7,7 @@ import NavBar from '../components/NavBar/NavBar';
 import Hero from '../components/Hero/Hero';
 import About from '../components/About/About';
 import Projects from '../components/Projects/Projects';
+import Contact from '../components/Contact/Contact';
 
 const Home: NextPage = () => {
   return (
@@ -15,6 +16,7 @@ const Home: NextPage = () => {
       <Hero />
       <About />
       <Projects />
+      <Contact />
     </>
   );
 };
