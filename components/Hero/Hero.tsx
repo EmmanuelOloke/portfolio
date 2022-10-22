@@ -58,19 +58,22 @@ const Hero = () => {
           voluptatum corrupti possimus explicabo culpa, ab sed natus maiores. Vel iure similique
           unde illum officia architecto suscipit! Qui, nisi?
         </Text>
-        <Box mt={10}>
-          <Link
-            className="resume-btn"
-            href="/resume.pdf"
-            target="_blank"
-            outline="solid"
-            px={14}
-            py={4}
-            borderRadius={3}
-          >
-            <Button variant="none">Resume</Button>
-          </Link>
-        </Box>
+        {/* <Box mt={10}> */}
+        <Button
+          className="btn"
+          as="a"
+          href="/resume.pdf"
+          target="_blank"
+          outline="solid"
+          background="none"
+          py={'1.7rem'}
+          px={'5rem'}
+          variant="none"
+          mt={10}
+        >
+          Resume
+        </Button>
+        {/* </Box> */}
       </Box>
 
       <Box className="gradient-border" w={{ base: '20rem', sm: '20rem', md: '20rem' }}>
