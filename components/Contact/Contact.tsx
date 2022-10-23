@@ -1,5 +1,5 @@
 import React from 'react';
-import { Box, Flex, Text, Link } from '@chakra-ui/react';
+import { Box, Flex, Text, Link, Image } from '@chakra-ui/react';
 
 import { FaGithub, FaTwitter, FaLinkedin, FaEnvelope, FaInstagram } from 'react-icons/fa';
 
@@ -13,9 +13,12 @@ const Contact = () => {
       alignItems="center"
       pb={20}
     >
-      <Text fontSize="2rem" fontWeight="bold" mb={5}>
-        Get in Touch
-      </Text>
+      <Flex flexDirection="row" alignItems="center" mb={5} gap={3}>
+        <Text fontSize="2rem" fontWeight="bold" pt={3}>
+          Get in Touch
+        </Text>
+        <Image src="reach-out.png" alt="Reach Out" w={'50px'} height={'50px'} />
+      </Flex>
       <Text fontSize="1.2rem" textAlign="center" mb={5}>
         You can reach out to me through any of these medium, be it to ask some questions, discuss
         opportunities for work and collaborations or just to catch up and chat. I will definitely
