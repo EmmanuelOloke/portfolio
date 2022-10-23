@@ -65,15 +65,15 @@ const Projects = () => {
       <Box mb={'10rem'}>
         <Flex flexDirection={'row'} alignItems="center" gap="5rem">
           <Image
-            src="/countries-preview.png"
-            alt="Countries Project Preview"
+            src="/devfinder-preview.png"
+            alt="DevFinder Project Preview"
             width={'40rem'}
             borderRadius="8px"
           />
 
           <Box>
             <Text fontSize="1.3rem" fontWeight="bold">
-              Countries
+              DevFinder
             </Text>
             <Text>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque praesentium magnam
@@ -85,7 +85,7 @@ const Projects = () => {
                 className="project-btn"
                 leftIcon={<FaGithub />}
                 as="a"
-                href="https://github.com/EmmanuelOloke/countries"
+                href="https://github.com/EmmanuelOloke/github-user-search-app"
                 target="_blank"
                 outline="solid"
                 background="none"
@@ -98,7 +98,7 @@ const Projects = () => {
                 className="project-btn"
                 leftIcon={<FaExternalLinkAlt />}
                 as="a"
-                href="https://countries-le4q9to4a-emmanueloloke.vercel.app/"
+                href="https://emmanueloloke.github.io/github-user-search-app/"
                 target="_blank"
                 outline="solid"
                 background="none"
@@ -116,7 +116,7 @@ const Projects = () => {
         <Flex flexDirection={'row'} alignItems="center" gap="5rem">
           <Box>
             <Text fontSize="1.3rem" fontWeight="bold">
-              Countries
+              E-Commerce [Product Page Design]
             </Text>
             <Text>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque praesentium magnam
@@ -128,7 +128,7 @@ const Projects = () => {
                 className="project-btn"
                 leftIcon={<FaGithub />}
                 as="a"
-                href="https://github.com/EmmanuelOloke/countries"
+                href="https://github.com/EmmanuelOloke/e-commerce-product-page"
                 target="_blank"
                 outline="solid"
                 background="none"
@@ -141,7 +141,7 @@ const Projects = () => {
                 className="project-btn"
                 leftIcon={<FaExternalLinkAlt />}
                 as="a"
-                href="https://countries-le4q9to4a-emmanueloloke.vercel.app/"
+                href="https://emmanueloloke.github.io/e-commerce-product-page/"
                 target="_blank"
                 outline="solid"
                 background="none"
@@ -153,7 +153,7 @@ const Projects = () => {
             </Flex>
           </Box>
           <Image
-            src="/countries-preview.png"
+            src="/e-commerce-preview.png"
             alt="Countries Project Preview"
             width={'40rem'}
             borderRadius="8px"
