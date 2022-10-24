@@ -5,18 +5,46 @@ import { FaGithub, FaExternalLinkAlt } from 'react-icons/fa';
 const Projects = () => {
   return (
     <Box flexDirection="column" w={'80%'} margin={'0 auto'}>
-      <Box mb={'10rem'}>
-        <Flex flexDirection={'row'} alignItems="center" mb={'5rem'} gap="2rem">
-          <Divider />
-          <Text fontSize="2rem" fontWeight="bold" width={'63rem'} color="#8c9095">
-            Some Recent Projects
-          </Text>
-          <Divider />
-        </Flex>
+      <Flex flexDirection={'row'} alignItems="center" mb={'5rem'} gap="2rem">
+        <Divider
+          display={{ base: 'none', sm: 'none', md: 'none', lg: 'flex', xl: 'flex', '2xl': 'flex' }}
+        />
+        <Text
+          fontSize={{
+            base: '1.5rem',
+            sm: '1.5rem',
+            md: '1.5rem',
+            lg: '2rem',
+            xl: '2rem',
+            '2xl': '2rem',
+          }}
+          fontWeight="bold"
+          width={{ lg: '63rem', xl: '63rem', '2xl': '63rem' }}
+          margin={'0 auto'}
+          color="#8c9095"
+        >
+          Some Recent Projects
+        </Text>
+        <Divider
+          display={{ base: 'none', sm: 'none', md: 'none', lg: 'flex', xl: 'flex', '2xl': 'flex' }}
+        />
+      </Flex>
 
-        <Flex flexDirection={'row'} alignItems="center" gap="5rem">
+      <Box mb={'10rem'}>
+        <Flex
+          flexDirection={{
+            base: 'column',
+            sm: 'column',
+            md: 'column',
+            lg: 'row',
+            xl: 'row',
+            '2xl': 'row',
+          }}
+          alignItems="center"
+          gap="5rem"
+        >
           <Box>
-            <Text fontSize="1.5rem" fontWeight="bold" color="#8c9095">
+            <Text fontSize="1.5rem" fontWeight="bold" color="#8c9095" mb={'1rem'}>
               Countries
             </Text>
             <Text>
@@ -24,7 +52,18 @@ const Projects = () => {
               porro ducimus adipisci impedit vel totam commodi eum magni, nihil iure molestiae,
               dolor maiores quibusdam dignissimos enim aspernatur quis.
             </Text>
-            <Flex mt={'2rem'} gap="2rem">
+            <Flex
+              mt={'2rem'}
+              gap="2rem"
+              flexDirection={{
+                base: 'column',
+                sm: 'column',
+                md: 'column',
+                lg: 'row',
+                xl: 'row',
+                '2xl': 'row',
+              }}
+            >
               <Button
                 className="project-btn"
                 leftIcon={<FaGithub />}
@@ -63,7 +102,18 @@ const Projects = () => {
       </Box>
 
       <Box mb={'10rem'}>
-        <Flex flexDirection={'row'} alignItems="center" gap="5rem">
+        <Flex
+          flexDirection={{
+            base: 'column-reverse',
+            sm: 'column-reverse',
+            md: 'column-reverse',
+            lg: 'row',
+            xl: 'row',
+            '2xl': 'row',
+          }}
+          alignItems="center"
+          gap="5rem"
+        >
           <Image
             src="/devfinder-preview.png"
             alt="DevFinder Project Preview"
@@ -72,7 +122,7 @@ const Projects = () => {
           />
 
           <Box>
-            <Text fontSize="1.5rem" fontWeight="bold" color="#8c9095">
+            <Text fontSize="1.5rem" fontWeight="bold" color="#8c9095" mb={'1rem'}>
               DevFinder
             </Text>
             <Text>
@@ -80,7 +130,18 @@ const Projects = () => {
               porro ducimus adipisci impedit vel totam commodi eum magni, nihil iure molestiae,
               dolor maiores quibusdam dignissimos enim aspernatur quis.
             </Text>
-            <Flex mt={'2rem'} gap="2rem">
+            <Flex
+              mt={'2rem'}
+              gap="2rem"
+              flexDirection={{
+                base: 'column',
+                sm: 'column',
+                md: 'column',
+                lg: 'row',
+                xl: 'row',
+                '2xl': 'row',
+              }}
+            >
               <Button
                 className="project-btn"
                 leftIcon={<FaGithub />}
@@ -113,9 +174,20 @@ const Projects = () => {
       </Box>
 
       <Box mb={'10rem'}>
-        <Flex flexDirection={'row'} alignItems="center" gap="5rem">
+        <Flex
+          flexDirection={{
+            base: 'column',
+            sm: 'column',
+            md: 'column',
+            lg: 'row',
+            xl: 'row',
+            '2xl': 'row',
+          }}
+          alignItems="center"
+          gap="5rem"
+        >
           <Box>
-            <Text fontSize="1.5rem" fontWeight="bold" color="#8c9095">
+            <Text fontSize="1.5rem" fontWeight="bold" color="#8c9095" mb={'1rem'}>
               E-Commerce [Product Page Design]
             </Text>
             <Text>
@@ -123,7 +195,18 @@ const Projects = () => {
               porro ducimus adipisci impedit vel totam commodi eum magni, nihil iure molestiae,
               dolor maiores quibusdam dignissimos enim aspernatur quis.
             </Text>
-            <Flex mt={'2rem'} gap="2rem">
+            <Flex
+              mt={'2rem'}
+              gap="2rem"
+              flexDirection={{
+                base: 'column',
+                sm: 'column',
+                md: 'column',
+                lg: 'row',
+                xl: 'row',
+                '2xl': 'row',
+              }}
+            >
               <Button
                 className="project-btn"
                 leftIcon={<FaGithub />}
