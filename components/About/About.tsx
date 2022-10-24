@@ -98,7 +98,7 @@ const About = () => {
               alt="html 5 logo"
               w={{ base: '2rem', sm: '2rem', md: '2rem', lg: '3rem', xl: '3rem', '2xl': '3rem' }}
             />
-            <Text opacity="0.7" fontWeight="bold" fontSize="sm">
+            <Text color="#8c9095" fontWeight="bold" fontSize="sm">
               HTML 5
             </Text>
           </Box>
@@ -108,7 +108,7 @@ const About = () => {
               alt="css3 logo"
               w={{ base: '2rem', sm: '2rem', md: '2rem', lg: '3rem', xl: '3rem', '2xl': '3rem' }}
             />
-            <Text opacity="0.7" fontWeight="bold" fontSize="md">
+            <Text color="#8c9095" fontWeight="bold" fontSize="md">
               CSS 3
             </Text>
           </Box>
@@ -119,7 +119,7 @@ const About = () => {
               borderRadius={'10px'}
               w={{ base: '2rem', sm: '2rem', md: '2rem', lg: '3rem', xl: '3rem', '2xl': '3rem' }}
             />
-            <Text opacity="0.7" fontWeight="bold" fontSize="md">
+            <Text color="#8c9095" fontWeight="bold" fontSize="md">
               JavaScript
             </Text>
           </Box>
@@ -129,7 +129,7 @@ const About = () => {
               alt="typescript logo"
               w={{ base: '2rem', sm: '2rem', md: '2rem', lg: '3rem', xl: '3rem', '2xl': '3rem' }}
             />
-            <Text opacity="0.7" fontWeight="bold" fontSize="md">
+            <Text color="#8c9095" fontWeight="bold" fontSize="md">
               TypeScript
             </Text>
           </Box>
@@ -139,7 +139,7 @@ const About = () => {
               alt="node logo"
               w={{ base: '2rem', sm: '2rem', md: '2rem', lg: '3rem', xl: '3rem', '2xl': '3rem' }}
             />
-            <Text opacity="0.7" fontWeight="bold" fontSize="md">
+            <Text color="#8c9095" fontWeight="bold" fontSize="md">
               NodeJS
             </Text>
           </Box>
@@ -149,7 +149,7 @@ const About = () => {
               alt="next logo"
               w={{ base: '2rem', sm: '2rem', md: '2rem', lg: '3rem', xl: '3rem', '2xl': '3rem' }}
             />
-            <Text opacity="0.7" fontWeight="bold" fontSize="md">
+            <Text color="#8c9095" fontWeight="bold" fontSize="md">
               NextJS
             </Text>
           </Box>
@@ -159,7 +159,7 @@ const About = () => {
               alt="react logo"
               w={{ base: '2rem', sm: '2rem', md: '2rem', lg: '3rem', xl: '3rem', '2xl': '3rem' }}
             />
-            <Text opacity="0.7" fontWeight="bold" fontSize="md">
+            <Text color="#8c9095" fontWeight="bold" fontSize="md">
               ReactJS
             </Text>
           </Box>
@@ -169,7 +169,7 @@ const About = () => {
               alt="mongodb logo"
               w={{ base: '2rem', sm: '2rem', md: '2rem', lg: '3rem', xl: '3rem', '2xl': '3rem' }}
             />
-            <Text opacity="0.7" fontWeight="bold" fontSize="md">
+            <Text color="#8c9095" fontWeight="bold" fontSize="md">
               MongoDB
             </Text>
           </Box>
