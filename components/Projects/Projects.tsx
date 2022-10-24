@@ -30,7 +30,7 @@ const Projects = () => {
         />
       </Flex>
 
-      <Box mb={'10rem'}>
+      <Box mb={{ base: '5rem', sm: '5rem', md: '10rem', lg: '10rem', xl: '10rem', '2xl': '10rem' }}>
         <Flex
           flexDirection={{
             base: 'column',
@@ -101,7 +101,7 @@ const Projects = () => {
         </Flex>
       </Box>
 
-      <Box mb={'10rem'}>
+      <Box mb={{ base: '5rem', sm: '5rem', md: '10rem', lg: '10rem', xl: '10rem', '2xl': '10rem' }}>
         <Flex
           flexDirection={{
             base: 'column-reverse',
@@ -173,7 +173,7 @@ const Projects = () => {
         </Flex>
       </Box>
 
-      <Box mb={'10rem'}>
+      <Box mb={{ base: '5rem', sm: '5rem', md: '10rem', lg: '10rem', xl: '10rem', '2xl': '10rem' }}>
         <Flex
           flexDirection={{
             base: 'column',
