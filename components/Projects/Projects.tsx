@@ -16,7 +16,7 @@ const Projects = () => {
 
         <Flex flexDirection={'row'} alignItems="center" gap="5rem">
           <Box>
-            <Text fontSize="1.3rem" fontWeight="bold">
+            <Text fontSize="1.5rem" fontWeight="bold" color="#8c9095">
               Countries
             </Text>
             <Text>
@@ -72,7 +72,7 @@ const Projects = () => {
           />
 
           <Box>
-            <Text fontSize="1.3rem" fontWeight="bold">
+            <Text fontSize="1.5rem" fontWeight="bold" color="#8c9095">
               DevFinder
             </Text>
             <Text>
@@ -115,7 +115,7 @@ const Projects = () => {
       <Box mb={'10rem'}>
         <Flex flexDirection={'row'} alignItems="center" gap="5rem">
           <Box>
-            <Text fontSize="1.3rem" fontWeight="bold">
+            <Text fontSize="1.5rem" fontWeight="bold" color="#8c9095">
               E-Commerce [Product Page Design]
             </Text>
             <Text>
