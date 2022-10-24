@@ -8,7 +8,7 @@ const Projects = () => {
       <Box mb={'10rem'}>
         <Flex flexDirection={'row'} alignItems="center" mb={'5rem'} gap="2rem">
           <Divider />
-          <Text fontSize="2rem" fontWeight="bold" width={'63rem'}>
+          <Text fontSize="2rem" fontWeight="bold" width={'63rem'} color="#8c9095">
             Some Recent Projects
           </Text>
           <Divider />
