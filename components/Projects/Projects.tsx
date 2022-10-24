@@ -6,12 +6,12 @@ const Projects = () => {
   return (
     <Box flexDirection="column" w={'80%'} margin={'0 auto'}>
       <Box mb={'10rem'}>
-        <Flex flexDirection={'row'} alignItems="center" mb={'5rem'}>
-          <Divider w={'25rem'} />
-          <Text fontSize="2rem" fontWeight="bold">
+        <Flex flexDirection={'row'} alignItems="center" mb={'5rem'} gap="2rem">
+          <Divider />
+          <Text fontSize="2rem" fontWeight="bold" width={'63rem'}>
             Some Recent Projects
           </Text>
-          <Divider w={'25rem'} />
+          <Divider />
         </Flex>
 
         <Flex flexDirection={'row'} alignItems="center" gap="5rem">
