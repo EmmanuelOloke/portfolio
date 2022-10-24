@@ -50,21 +50,19 @@ const About = () => {
         </Text>
         <Divider mt={'1rem'} mb={'1rem'} />
         <Text mb={'2rem'}>
-          Hello! My name is Brittany and I enjoy creating things that live on the internet. My
-          interest in web development started back in 2012 when I decided to try editing custom
-          Tumblr themes — turns out hacking together a custom reblog button taught me a lot about
-          HTML & CSS!
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo, aliquid eos quaerat
+          cupiditate ex quisquam eius ratione vitae quia earum voluptatem dolor hic eum beatae
+          repudiandae saepe adipisci totam fugiat!
         </Text>
         <Text mb={'2rem'}>
-          Fast-forward to today, and I’ve had the privilege of working at an advertising agency, a
-          start-up, a huge corporation, and a student-led design studio. My main focus these days is
-          building accessible, inclusive products and digital experiences at Upstatement for a
-          variety of clients.
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam voluptatem impedit enim
+          sunt velit, provident consequuntur. Eum numquam fugit tenetur magni minima, explicabo
+          laboriosam officia, eos magnam nulla iste ratione.
         </Text>
         <Text mb={'2rem'}>
-          I also recently launched a course that covers everything you need to build a web app with
-          the Spotify API using Node & React. Here are a few technologies I’ve been working with
-          recently:
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure quas dolorem laboriosam
+          expedita adipisci facere magnam sunt. Et molestiae omnis pariatur asperiores eaque. Rem
+          enim tempore corrupti veniam accusamus ipsum.
         </Text>
         <Text
           fontSize={{
@@ -75,7 +73,7 @@ const About = () => {
             xl: '2rem',
             '2xl': '2rem',
           }}
-          opacity="0.7"
+          color="#8c9095"
           mb={'1rem'}
         >
           Here are few technologies I use:
