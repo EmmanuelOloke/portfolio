@@ -46,7 +46,7 @@ const Hero = () => {
           mt={2}
           fontSize={{ base: '3xl', sm: '3xl', md: '3xl', lg: '5xl', xl: '5xl', '2xl': '5xl' }}
           fontWeight="bold"
-          opacity="0.5"
+          color="#8c9095"
         >
           I build beautiful software
         </Text>
