@@ -6,6 +6,7 @@ import { FaGithub, FaTwitter, FaLinkedin, FaEnvelope, FaInstagram } from 'react-
 const Contact = () => {
   return (
     <Box
+      id="contact"
       w={{ base: '80%', sm: '80%', md: '80%', lg: '80%', xl: '80%', '2xl': '1440px' }}
       margin={'0 auto'}
       display="flex"
