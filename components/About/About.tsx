@@ -1,9 +1,10 @@
 import React from 'react';
-import { Flex, Box, Image, Text, Divider } from '@chakra-ui/react';
+import { Flex, Box, Image, Text, Divider, Link } from '@chakra-ui/react';
 
 const About = () => {
   return (
     <Flex
+      id="about"
       flexDirection={{
         base: 'column',
         sm: 'column',
@@ -57,25 +58,28 @@ const About = () => {
           mb={'2rem'}
           fontSize={{ base: 'md', sm: 'md', md: 'md', lg: 'lg', xl: 'lg', '2xl': 'lg' }}
         >
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo, aliquid eos quaerat
-          cupiditate ex quisquam eius ratione vitae quia earum voluptatem dolor hic eum beatae
-          repudiandae saepe adipisci totam fugiat!
+          Hello! My name is Emmanuel. I enjoy building well-structured and aesthetically pleasing
+          software. I first picked interest in web development as a teenager and that influenced my
+          decision to study Computer Science as my first degree.
         </Text>
         <Text
           mb={'2rem'}
           fontSize={{ base: 'md', sm: 'md', md: 'md', lg: 'lg', xl: 'lg', '2xl': 'lg' }}
         >
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam voluptatem impedit enim
-          sunt velit, provident consequuntur. Eum numquam fugit tenetur magni minima, explicabo
-          laboriosam officia, eos magnam nulla iste ratione.
+          Fast forward to now, a lot has happened. I have been priviledged to work as a web
+          developer for a{' '}
+          <Link color="#8c9095" href="https://shiffishutterz.com" target="_blank">
+            photography studio
+          </Link>
+          , building the website from the ground up. I have also spent some time away from tech
+          working in the Oil and Gas industry as a Field Engineer.
         </Text>
         <Text
           mb={'2rem'}
           fontSize={{ base: 'md', sm: 'md', md: 'md', lg: 'lg', xl: 'lg', '2xl': 'lg' }}
         >
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure quas dolorem laboriosam
-          expedita adipisci facere magnam sunt. Et molestiae omnis pariatur asperiores eaque. Rem
-          enim tempore corrupti veniam accusamus ipsum.
+          Now I am transitioning back into the tech industry leveraging on old and new experiences
+          to build modern software solutions and chart a renewed career path.
         </Text>
         <Text
           fontSize={{
