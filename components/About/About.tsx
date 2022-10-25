@@ -42,7 +42,7 @@ const About = () => {
       </Box>
       <Box
         fontSize={'1.2rem'}
-        w={{ base: '85%', sm: '85%', md: '85%', lg: '30rem', xl: '40rem', '2xl': '40rem' }}
+        w={{ base: '85%', sm: '85%', md: '85%', lg: '30rem', xl: '33rem', '2xl': '47rem' }}
       >
         <Flex
           display={{ base: 'none', sm: 'none', md: 'none', lg: 'flex', xl: 'flex', '2xl': 'flex' }}

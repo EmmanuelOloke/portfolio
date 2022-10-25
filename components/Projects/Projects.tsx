@@ -4,7 +4,11 @@ import { FaGithub, FaExternalLinkAlt } from 'react-icons/fa';
 
 const Projects = () => {
   return (
-    <Box flexDirection="column" w={'80%'} margin={'0 auto'}>
+    <Box
+      flexDirection="column"
+      w={{ base: '80%', sm: '80%', md: '80%', lg: '80%', xl: '80%', '2xl': '1440px' }}
+      margin={'0 auto'}
+    >
       <Flex flexDirection={'row'} alignItems="center" mb={'5rem'} gap="2rem">
         <Divider
           display={{ base: 'none', sm: 'none', md: 'none', lg: 'flex', xl: 'flex', '2xl': 'flex' }}
@@ -16,7 +20,7 @@ const Projects = () => {
             md: '1.5rem',
             lg: '2rem',
             xl: '2rem',
-            '2xl': '2rem',
+            '2xl': '1.99rem',
           }}
           fontWeight="bold"
           width={{ lg: '63rem', xl: '63rem', '2xl': '63rem' }}
