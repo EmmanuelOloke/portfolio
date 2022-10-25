@@ -1,10 +1,11 @@
 import React from 'react';
-import { Text, Box, Flex, Divider, Image, Button } from '@chakra-ui/react';
+import { Text, Box, Flex, Divider, Image, Button, Link } from '@chakra-ui/react';
 import { FaGithub, FaExternalLinkAlt } from 'react-icons/fa';
 
 const Projects = () => {
   return (
     <Box
+      id="projects"
       flexDirection="column"
       w={{ base: '80%', sm: '80%', md: '80%', lg: '80%', xl: '80%', '2xl': '1440px' }}
       margin={'0 auto'}
@@ -52,10 +53,14 @@ const Projects = () => {
               Countries
             </Text>
             <Text>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque praesentium magnam
-              porro ducimus adipisci impedit vel totam commodi eum magni, nihil iure molestiae,
-              dolor maiores quibusdam dignissimos enim aspernatur quis.
+              A web app for visualizing information about different countries of the world. View
+              details about a country, filter by region and also check out countries that share
+              borders. Leveraged on the information and functionalities provided by the{' '}
+              <Link href="https://restcountries.com/" target="_blank" color="#8c9095">
+                REST Countries API.
+              </Link>
             </Text>
+            <Text mt={'1rem'}>Built with NextJS, TypeScript and ChakraUI. Hosted with Vercel</Text>
             <Flex
               mt={'2rem'}
               gap="2rem"
@@ -78,6 +83,7 @@ const Projects = () => {
                 background="none"
                 py={'1.5rem'}
                 px={'1.2rem'}
+                borderRadius={5}
               >
                 View GitHub Repo
               </Button>
@@ -130,9 +136,15 @@ const Projects = () => {
               DevFinder
             </Text>
             <Text>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque praesentium magnam
-              porro ducimus adipisci impedit vel totam commodi eum magni, nihil iure molestiae,
-              dolor maiores quibusdam dignissimos enim aspernatur quis.
+              DevFinder is a web application that utilizes the{' '}
+              <Link href="https://api.github.com/users" color="#8c9095" target="_blank">
+                GitHub Users API
+              </Link>{' '}
+              to connect and fetch data. Search for a particular GitHub user and it returns
+              information about the user in a well presented User Interface.
+            </Text>
+            <Text mt={'1rem'}>
+              Built with ReactJS, JavaScript and ChakraUI. Hosted with GitHub Pages
             </Text>
             <Flex
               mt={'2rem'}
@@ -195,9 +207,11 @@ const Projects = () => {
               E-Commerce [Product Page Design]
             </Text>
             <Text>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque praesentium magnam
-              porro ducimus adipisci impedit vel totam commodi eum magni, nihil iure molestiae,
-              dolor maiores quibusdam dignissimos enim aspernatur quis.
+              A design implementation for an e-commerce product page. Explore the product carousel
+              slides and also the add to cart functionality.
+            </Text>
+            <Text mt={'1rem'}>
+              Built with HTML, CSS, JavaScript, and ReactJS. Hosted with GitHub Pages
             </Text>
             <Flex
               mt={'2rem'}
