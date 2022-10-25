@@ -39,7 +39,7 @@ const NavBar = () => {
         py={5}
         alignItems="center"
         width="90vw"
-        w={{ base: '87vw', sm: '80vw', md: '80vw', lg: '88vw', xl: '87vw', '2xl': '65vw' }}
+        w={{ base: '87vw', sm: '80vw', md: '80vw', lg: '88vw', xl: '87vw', '2xl': '75vw' }}
       >
         <Box>
           <Icon as={FaCode} fontSize="3xl" />
@@ -47,6 +47,7 @@ const NavBar = () => {
 
         <Flex gap={14} alignItems="center" textTransform="uppercase" fontWeight="bold">
           <Link
+            href="#about"
             display={{
               base: 'none',
               sm: 'none',
@@ -59,6 +60,7 @@ const NavBar = () => {
             About
           </Link>
           <Link
+            href="#projects"
             display={{
               base: 'none',
               sm: 'none',
@@ -71,6 +73,7 @@ const NavBar = () => {
             Projects
           </Link>
           <Link
+            href="#contact"
             display={{
               base: 'none',
               sm: 'none',
