@@ -14,7 +14,7 @@ const Hero = () => {
       }}
       alignItems={'center'}
       justifyContent={'center'}
-      mt={{ base: '8rem', sm: '8rem', md: '8rem', lg: '12rem', xl: '15rem', '2xl': '20rem' }}
+      mt={{ base: '13rem', sm: '15rem', md: '10rem', lg: '12rem', xl: '15rem', '2xl': '20rem' }}
       gap={{ base: 20, sm: 20, md: 20, lg: 60, xl: 60, '2xl': '33rem' }}
     >
       <Box>
@@ -40,11 +40,10 @@ const Hero = () => {
           mt={5}
           w={{ base: '20rem', sm: '25rem', md: '35rem', lg: '35rem', xl: '35rem', '2xl': '35rem' }}
         >
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Similique molestiae cupiditate
-          voluptatum corrupti possimus explicabo culpa, ab sed natus maiores. Vel iure similique
-          unde illum officia architecto suscipit! Qui, nisi?
+          I am a software engineer with proficiency in building highly aesthetic and functional
+          software products, while paying keen attention to industry standards such as
+          accessibility, SEO, performance, and responsiveness.
         </Text>
-        {/* <Box mt={10}> */}
         <Button
           className="btn"
           as="a"
@@ -56,13 +55,18 @@ const Hero = () => {
           px={'5rem'}
           variant="none"
           mt={10}
+          borderRadius={5}
         >
           Resume
         </Button>
         {/* </Box> */}
       </Box>
 
-      <Box className="gradient-border" w={{ base: '20rem', sm: '20rem', md: '20rem' }}>
+      <Box
+        className="gradient-border"
+        w={{ base: '20rem', sm: '20rem', md: '20rem' }}
+        display={{ base: 'none', sm: 'none', md: 'none', lg: 'flex', xl: 'flex', '2xl': 'flex' }}
+      >
         <Image src="memoji.png" alt="Emmanuel Oloke's Memoji" />
       </Box>
     </Flex>
