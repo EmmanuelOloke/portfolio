@@ -10,6 +10,7 @@ import '../components/Hero/style.css';
 import '../components/About/style.css';
 import '../components/Contact/style.css';
 import '../components/Projects/style.css';
+import '../components/NavBar/style.css';
 
 function MyApp({ Component, pageProps }: AppProps) {
   return (

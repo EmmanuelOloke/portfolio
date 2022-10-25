@@ -47,6 +47,7 @@ const NavBar = () => {
 
         <Flex gap={14} alignItems="center" textTransform="uppercase" fontWeight="bold">
           <Link
+            className="nav-link"
             href="#about"
             display={{
               base: 'none',
@@ -60,6 +61,7 @@ const NavBar = () => {
             About
           </Link>
           <Link
+            className="nav-link"
             href="#projects"
             display={{
               base: 'none',
@@ -73,6 +75,7 @@ const NavBar = () => {
             Projects
           </Link>
           <Link
+            className="nav-link"
             href="#contact"
             display={{
               base: 'none',
