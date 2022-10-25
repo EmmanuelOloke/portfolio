@@ -32,7 +32,7 @@ const NavBar = () => {
       justifyContent="center"
       boxShadow="0 4px 30px rgba(0, 0, 0, 0.1)"
       backdropFilter="blur(5px)"
-      z-index={200}
+      zIndex={10}
     >
       <Flex
         justifyContent="space-between"
