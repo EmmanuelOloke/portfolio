@@ -33,10 +33,12 @@
   }
 
   .btn {
+    border-radius: 2rem;
     transition: 1s;
   }
 
   .btn:hover{
+    color: #8c9095;
     transform: translateY(-5px)
   }
 
