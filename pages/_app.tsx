@@ -9,6 +9,7 @@ config.autoAddCss = false;
 import '../components/Hero/style.css';
 import '../components/About/style.css';
 import '../components/Contact/style.css';
+import '../components/Projects/style.css';
 
 function MyApp({ Component, pageProps }: AppProps) {
   return (
