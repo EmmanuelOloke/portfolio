@@ -18,10 +18,16 @@ const Hero = () => {
       gap={{ base: 20, sm: 20, md: 20, lg: 60, xl: 60, '2xl': '33rem' }}
     >
       <Box>
-        <Text fontSize={{ base: '2xl', sm: '2xl', md: '2xl', lg: 'lg', xl: '3xl', '2xl': '3xl' }}>
+        <Text
+          data-aos="fade-up"
+          data-aos-delay="100"
+          fontSize={{ base: '2xl', sm: '2xl', md: '2xl', lg: 'lg', xl: '3xl', '2xl': '3xl' }}
+        >
           Hey there <span className="wave">👋🏾</span> I am
         </Text>
         <Text
+          data-aos="fade-up"
+          data-aos-delay="200"
           className="text-gradient"
           fontSize={{ base: '4xl', sm: '4xl', md: '4xl', lg: '5xl', xl: '5xl', '2xl': '5xl' }}
           fontWeight="bold"
@@ -29,6 +35,8 @@ const Hero = () => {
           Emmanuel Oloke
         </Text>
         <Text
+          data-aos="fade-up"
+          data-aos-delay="300"
           mt={2}
           fontSize={{ base: '3xl', sm: '3xl', md: '3xl', lg: '5xl', xl: '5xl', '2xl': '5xl' }}
           fontWeight="bold"
@@ -37,6 +45,8 @@ const Hero = () => {
           I build beautiful software
         </Text>
         <Text
+          data-aos="fade-up"
+          data-aos-delay="400"
           mt={5}
           w={{ base: '20rem', sm: '25rem', md: '35rem', lg: '35rem', xl: '35rem', '2xl': '35rem' }}
         >
@@ -45,6 +55,8 @@ const Hero = () => {
           accessibility, SEO, performance, and responsiveness.
         </Text>
         <Button
+          data-aos="fade-up"
+          data-aos-delay="500"
           className="btn"
           as="a"
           href="/resume.pdf"
@@ -59,10 +71,11 @@ const Hero = () => {
         >
           Resume
         </Button>
-        {/* </Box> */}
       </Box>
 
       <Box
+        data-aos="fade-up"
+        data-aos-delay="100"
         className="gradient-border"
         w={{ base: '20rem', sm: '20rem', md: '20rem' }}
         display={{ base: 'none', sm: 'none', md: 'none', lg: 'flex', xl: 'flex', '2xl': 'flex' }}

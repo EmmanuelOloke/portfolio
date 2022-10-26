@@ -4,7 +4,7 @@ import { Flex, Text, Link } from '@chakra-ui/react';
 
 const Footer = () => {
   return (
-    <Flex justifyContent={'center'} mb={'2rem'}>
+    <Flex justifyContent={'center'} mb={'2rem'} data-aos="fade-down" data-aos-delay="200">
       <Text
         color="#8c9095"
         fontSize={{

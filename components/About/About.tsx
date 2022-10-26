@@ -26,13 +26,20 @@ const About = () => {
         margin={'0 auto'}
         w={'85%'}
       >
-        <Text fontSize="1.5rem" textAlign="center" fontWeight="bold" color="#8c9095">
+        <Text
+          fontSize="1.5rem"
+          textAlign="center"
+          fontWeight="bold"
+          color="#8c9095"
+          data-aos="fade-left"
+          data-aos-delay="100"
+        >
           About Me
         </Text>
         <Divider mt={'1rem'} />
       </Flex>
 
-      <Box>
+      <Box data-aos="fade-right" data-aos-delay="200">
         <Image
           className="img-overlay-control"
           w={{ base: '15rem', sm: '15rem', md: '15rem', lg: '30rem', xl: '30rem', '2xl': '30rem' }}
@@ -49,14 +56,23 @@ const About = () => {
           display={{ base: 'none', sm: 'none', md: 'none', lg: 'flex', xl: 'flex', '2xl': 'flex' }}
           flexDirection="column"
         >
-          <Text fontSize="2.5rem" textAlign="center" fontWeight="bold" color="#8c9095">
+          <Text
+            fontSize="2.5rem"
+            textAlign="center"
+            fontWeight="bold"
+            color={'#8c9095'}
+            data-aos="fade-left"
+            data-aos-delay="100"
+          >
             About Me
           </Text>
-          <Divider mt={'1rem'} mb={'2rem'} />
+          <Divider mt={'1rem'} mb={'2rem'} data-aos="fade-left" data-aos-delay="200" />
         </Flex>
         <Text
           mb={'2rem'}
           fontSize={{ base: 'md', sm: 'md', md: 'md', lg: 'lg', xl: 'lg', '2xl': 'lg' }}
+          data-aos="fade-left"
+          data-aos-delay="300"
         >
           Hello! My name is Emmanuel. I enjoy building well-structured and aesthetically pleasing
           software. I first picked interest in web development as a teenager and that influenced my
@@ -65,6 +81,8 @@ const About = () => {
         <Text
           mb={'2rem'}
           fontSize={{ base: 'md', sm: 'md', md: 'md', lg: 'lg', xl: 'lg', '2xl': 'lg' }}
+          data-aos="fade-left"
+          data-aos-delay="400"
         >
           Fast forward to now, a lot has happened. I have been priviledged to work as a web
           developer for a{' '}
@@ -77,6 +95,8 @@ const About = () => {
         <Text
           mb={'2rem'}
           fontSize={{ base: 'md', sm: 'md', md: 'md', lg: 'lg', xl: 'lg', '2xl': 'lg' }}
+          data-aos="fade-left"
+          data-aos-delay="500"
         >
           Now I am transitioning back into the tech industry leveraging on old and new experiences
           to build modern software solutions and chart a renewed career path.
@@ -92,10 +112,18 @@ const About = () => {
           }}
           color="#8c9095"
           mb={'1rem'}
+          data-aos="fade-left"
+          data-aos-delay="600"
         >
           Here are few technologies I use:
         </Text>
-        <Flex gap={'15px'} alignItems="center" flexWrap={'wrap'}>
+        <Flex
+          gap={'15px'}
+          alignItems="center"
+          flexWrap={'wrap'}
+          data-aos="fade-left"
+          data-aos-delay="700"
+        >
           <Box className="tools">
             <Image
               src="/html-logo.png"

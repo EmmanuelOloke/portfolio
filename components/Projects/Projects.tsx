@@ -13,6 +13,8 @@ const Projects = () => {
       <Flex flexDirection={'row'} alignItems="center" mb={'5rem'} gap="2rem">
         <Divider
           display={{ base: 'none', sm: 'none', md: 'none', lg: 'flex', xl: 'flex', '2xl': 'flex' }}
+          data-aos="fade-right"
+          data-aos-delay="400"
         />
         <Text
           fontSize={{
@@ -27,11 +29,15 @@ const Projects = () => {
           width={{ lg: '63rem', xl: '63rem', '2xl': '63rem' }}
           margin={'0 auto'}
           color="#8c9095"
+          data-aos="fade-down"
+          data-aos-delay="400"
         >
           Some Recent Projects
         </Text>
         <Divider
           display={{ base: 'none', sm: 'none', md: 'none', lg: 'flex', xl: 'flex', '2xl': 'flex' }}
+          data-aos="fade-left"
+          data-aos-delay="400"
         />
       </Flex>
 
@@ -49,10 +55,17 @@ const Projects = () => {
           gap="5rem"
         >
           <Box>
-            <Text fontSize="1.5rem" fontWeight="bold" color="#8c9095" mb={'1rem'}>
+            <Text
+              fontSize="1.5rem"
+              fontWeight="bold"
+              color="#8c9095"
+              mb={'1rem'}
+              data-aos="fade-down-right"
+              data-aos-delay="500"
+            >
               Countries
             </Text>
-            <Text>
+            <Text data-aos="fade-down-right" data-aos-delay="500">
               A web app for visualizing information about different countries of the world. View
               details about a country, filter by region and also check out countries that share
               borders. Leveraged on the information and functionalities provided by the{' '}
@@ -60,7 +73,9 @@ const Projects = () => {
                 REST Countries API.
               </Link>
             </Text>
-            <Text mt={'1rem'}>Built with NextJS, TypeScript and ChakraUI. Hosted with Vercel</Text>
+            <Text data-aos="fade-down-right" data-aos-delay="500" mt={'1rem'}>
+              Built with NextJS, TypeScript and ChakraUI. Hosted with Vercel
+            </Text>
             <Flex
               mt={'2rem'}
               gap="2rem"
@@ -72,6 +87,8 @@ const Projects = () => {
                 xl: 'row',
                 '2xl': 'row',
               }}
+              data-aos="fade-down-right"
+              data-aos-delay="500"
             >
               <Button
                 className="project-btn"
@@ -107,6 +124,8 @@ const Projects = () => {
             alt="Countries Project Preview"
             width={'40rem'}
             borderRadius="8px"
+            data-aos="fade-down-left"
+            data-aos-delay="500"
           />
         </Flex>
       </Box>
@@ -129,13 +148,22 @@ const Projects = () => {
             alt="DevFinder Project Preview"
             width={'40rem'}
             borderRadius="8px"
+            data-aos="fade-right"
+            data-aos-delay="600"
           />
 
           <Box>
-            <Text fontSize="1.5rem" fontWeight="bold" color="#8c9095" mb={'1rem'}>
+            <Text
+              fontSize="1.5rem"
+              fontWeight="bold"
+              color="#8c9095"
+              mb={'1rem'}
+              data-aos="fade-left"
+              data-aos-delay="600"
+            >
               DevFinder
             </Text>
-            <Text>
+            <Text data-aos="fade-left" data-aos-delay="700">
               DevFinder is a web application that utilizes the{' '}
               <Link href="https://api.github.com/users" color="#8c9095" target="_blank">
                 GitHub Users API
@@ -143,7 +171,7 @@ const Projects = () => {
               to connect and fetch data. Search for a particular GitHub user and it returns
               information about the user in a well presented User Interface.
             </Text>
-            <Text mt={'1rem'}>
+            <Text mt={'1rem'} data-aos="fade-left" data-aos-delay="800">
               Built with ReactJS, JavaScript and ChakraUI. Hosted with GitHub Pages
             </Text>
             <Flex
@@ -157,6 +185,8 @@ const Projects = () => {
                 xl: 'row',
                 '2xl': 'row',
               }}
+              data-aos="fade-left"
+              data-aos-delay="900"
             >
               <Button
                 className="project-btn"
@@ -203,14 +233,21 @@ const Projects = () => {
           gap="5rem"
         >
           <Box>
-            <Text fontSize="1.5rem" fontWeight="bold" color="#8c9095" mb={'1rem'}>
+            <Text
+              fontSize="1.5rem"
+              fontWeight="bold"
+              color="#8c9095"
+              mb={'1rem'}
+              data-aos="fade-up-right"
+              data-aos-delay="600"
+            >
               E-Commerce [Product Page Design]
             </Text>
-            <Text>
+            <Text data-aos="fade-up-right" data-aos-delay="700">
               A design implementation for an e-commerce product page. Explore the product carousel
               slides and also the add to cart functionality.
             </Text>
-            <Text mt={'1rem'}>
+            <Text mt={'1rem'} data-aos="fade-up-right" data-aos-delay="800">
               Built with HTML, CSS, JavaScript, and ReactJS. Hosted with GitHub Pages
             </Text>
             <Flex
@@ -224,6 +261,8 @@ const Projects = () => {
                 xl: 'row',
                 '2xl': 'row',
               }}
+              data-aos="fade-up-right"
+              data-aos-delay="900"
             >
               <Button
                 className="project-btn"
@@ -258,6 +297,8 @@ const Projects = () => {
             alt="Countries Project Preview"
             width={'40rem'}
             borderRadius="8px"
+            data-aos="fade-up-left"
+            data-aos-delay="600"
           />
         </Flex>
       </Box>

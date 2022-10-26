@@ -9,18 +9,19 @@ import '@fortawesome/fontawesome-svg-core/styles.css';
 import { config } from '@fortawesome/fontawesome-svg-core';
 config.autoAddCss = false;
 
-import 'aos/dist/aos.css';
-
 import '../components/Hero/style.css';
 import '../components/About/style.css';
 import '../components/Contact/style.css';
 import '../components/Projects/style.css';
 import '../components/NavBar/style.css';
+import 'aos/dist/aos.css';
 
 function MyApp({ Component, pageProps }: AppProps) {
   useEffect(() => {
     AOS.init({
-      once: true,
+      // duration: 700,
+      // once: true,
+      // disable: 'mobile',
     });
   }, []);
 

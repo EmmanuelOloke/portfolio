@@ -14,7 +14,14 @@ const Contact = () => {
       alignItems="center"
       pb={20}
     >
-      <Flex flexDirection="row" alignItems="center" mb={5} gap={3}>
+      <Flex
+        flexDirection="row"
+        alignItems="center"
+        mb={5}
+        gap={3}
+        data-aos="fade-up"
+        data-aos-delay="200"
+      >
         <Text fontSize="2rem" fontWeight="bold" pt={3} color="#8c9095">
           Get in Touch
         </Text>
@@ -31,6 +38,8 @@ const Contact = () => {
         }}
         textAlign="center"
         mb={5}
+        data-aos="fade-up"
+        data-aos-delay="300"
       >
         You can reach out to me through any of these medium, be it to ask some questions, discuss
         opportunities for work and collaborations or just to catch up and chat. I will definitely
@@ -46,6 +55,8 @@ const Contact = () => {
           '2xl': '2.2rem',
         }}
         gap="2rem"
+        data-aos="fade-up"
+        data-aos-delay="400"
       >
         <Link href="https://github.com/EmmanuelOloke" target="_blank" className="logo">
           <FaGithub cursor="pointer" />
