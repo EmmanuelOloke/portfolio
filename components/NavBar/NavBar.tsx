@@ -134,9 +134,9 @@ const NavBar = () => {
                 <Text textTransform="capitalize" fontSize="large">
                   Emmanuel Oloke
                 </Text>
-                <Link>About</Link>
-                <Link>Projects</Link>
-                <Link>Contact</Link>
+                <Link href="#about">About</Link>
+                <Link href="#projects">Projects</Link>
+                <Link href="#contact">Contact</Link>
                 <Link
                   href="/resume.pdf"
                   target="_blank"
