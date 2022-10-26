@@ -2,8 +2,10 @@ import '../styles/globals.css';
 import type { AppProps } from 'next/app';
 import AOS from 'aos';
 import Head from 'next/head';
-import { ChakraProvider } from '@chakra-ui/react';
+import { ChakraProvider, ColorModeScript } from '@chakra-ui/react';
 import { useEffect } from 'react';
+
+import theme from '../theme';
 
 import '@fortawesome/fontawesome-svg-core/styles.css';
 import { config } from '@fortawesome/fontawesome-svg-core';
@@ -33,7 +35,8 @@ function MyApp({ Component, pageProps }: AppProps) {
         <meta name="description" content="Software Engineer" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <ChakraProvider>
+      <ColorModeScript initialColorMode={theme.config.initialColorMode} />
+      <ChakraProvider theme={theme}>
         <Component {...pageProps} />
       </ChakraProvider>
     </>
