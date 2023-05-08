@@ -54,6 +54,95 @@ const Projects = () => {
           alignItems="center"
           gap="5rem"
         >
+          <Image
+            src="/techtime.png"
+            alt="Countries Project Preview"
+            width={'40rem'}
+            borderRadius="8px"
+            data-aos="fade-down-left"
+            data-aos-delay="500"
+          />
+          <Box>
+            <Text
+              fontSize="1.5rem"
+              fontWeight="bold"
+              color="#8c9095"
+              mb={'1rem'}
+              data-aos="fade-down-right"
+              data-aos-delay="500"
+            >
+              Tech Time
+            </Text>
+            <Text data-aos="fade-down-right" data-aos-delay="500">
+              A web app for visualizing information about different countries of the world. View
+              details about a country, filter by region and also check out countries that share
+              borders. Leveraged on the information and functionalities provided by the{' '}
+              <Link href="https://restcountries.com/" target="_blank" color="#8c9095">
+                REST Countries API.
+              </Link>
+            </Text>
+            <Text data-aos="fade-down-right" data-aos-delay="500" mt={'1rem'}>
+              Built with NextJS, TypeScript and ChakraUI. Hosted with Vercel
+            </Text>
+            <Flex
+              mt={'2rem'}
+              gap="2rem"
+              flexDirection={{
+                base: 'column',
+                sm: 'column',
+                md: 'row',
+                lg: 'row',
+                xl: 'row',
+                '2xl': 'row',
+              }}
+              data-aos="fade-down-right"
+              data-aos-delay="500"
+            >
+              <Button
+                className="project-btn"
+                leftIcon={<FaGithub />}
+                as="a"
+                href="https://github.com/EmmanuelOloke/countries"
+                target="_blank"
+                outline="solid"
+                background="none"
+                py={'1.5rem'}
+                px={'1.2rem'}
+                borderRadius={5}
+              >
+                View GitHub Repo
+              </Button>
+              <Button
+                className="project-btn"
+                leftIcon={<FaExternalLinkAlt />}
+                as="a"
+                href="https://countries-le4q9to4a-emmanueloloke.vercel.app/"
+                target="_blank"
+                outline="solid"
+                background="none"
+                py={'1.5rem'}
+                px={'1.2rem'}
+              >
+                View Live Site
+              </Button>
+            </Flex>
+          </Box>
+        </Flex>
+      </Box>
+
+      <Box mb={{ base: '5rem', sm: '5rem', md: '10rem', lg: '10rem', xl: '10rem', '2xl': '10rem' }}>
+        <Flex
+          flexDirection={{
+            base: 'column',
+            sm: 'column',
+            md: 'column',
+            lg: 'row',
+            xl: 'row',
+            '2xl': 'row',
+          }}
+          alignItems="center"
+          gap="5rem"
+        >
           <Box>
             <Text
               fontSize="1.5rem"
