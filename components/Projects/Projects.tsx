@@ -74,12 +74,9 @@ const Projects = () => {
               Tech Time
             </Text>
             <Text data-aos="fade-down-right" data-aos-delay="500">
-              A web app for visualizing information about different countries of the world. View
-              details about a country, filter by region and also check out countries that share
-              borders. Leveraged on the information and functionalities provided by the{' '}
-              <Link href="https://restcountries.com/" target="_blank" color="#8c9095">
-                REST Countries API.
-              </Link>
+              TechTime is an online digital skill tutoring platform that teaches high income skills
+              through high quality video, audio and live classes. Get access to experienced mentors,
+              one-on-one meetings, affordable prices, and flexible learrning all on one platform.
             </Text>
             <Text data-aos="fade-down-right" data-aos-delay="500" mt={'1rem'}>
               Built with NextJS, TypeScript, ChakraUI, and SplideJS. Hosted with Vercel
