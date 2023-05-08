@@ -82,7 +82,7 @@ const Projects = () => {
               </Link>
             </Text>
             <Text data-aos="fade-down-right" data-aos-delay="500" mt={'1rem'}>
-              Built with NextJS, TypeScript and ChakraUI. Hosted with Vercel
+              Built with NextJS, TypeScript, ChakraUI, and SplideJS. Hosted with Vercel
             </Text>
             <Flex
               mt={'2rem'}
