@@ -102,7 +102,7 @@ const Projects = () => {
                 className="project-btn"
                 leftIcon={<FaGithub />}
                 as="a"
-                href="https://github.com/EmmanuelOloke/countries"
+                href="https://github.com/EmmanuelOloke/techtime"
                 target="_blank"
                 outline="solid"
                 background="none"
