@@ -116,7 +116,7 @@ const Projects = () => {
                 className="project-btn"
                 leftIcon={<FaExternalLinkAlt />}
                 as="a"
-                href="https://countries-le4q9to4a-emmanueloloke.vercel.app/"
+                href="https://techtime-seven.vercel.app//"
                 target="_blank"
                 outline="solid"
                 background="none"
