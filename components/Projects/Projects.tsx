@@ -56,7 +56,7 @@ const Projects = () => {
         >
           <Image
             src="/techtime.png"
-            alt="Countries Project Preview"
+            alt="Tech Time Project Preview"
             width={'40rem'}
             borderRadius="8px"
             data-aos="fade-down-left"
