@@ -197,6 +197,16 @@ const About = () => {
           </Box>
           <Box className="tools">
             <Image
+              src="/vue.png"
+              alt="vue logo"
+              w={{ base: '2rem', sm: '2rem', md: '2rem', lg: '3rem', xl: '3rem', '2xl': '3rem' }}
+            />
+            <Text color="#8c9095" fontWeight="bold" fontSize="md">
+              VueJS
+            </Text>
+          </Box>
+          <Box className="tools">
+            <Image
               src="/mongo.webp"
               alt="mongodb logo"
               w={{ base: '2rem', sm: '2rem', md: '2rem', lg: '3rem', xl: '3rem', '2xl': '3rem' }}
