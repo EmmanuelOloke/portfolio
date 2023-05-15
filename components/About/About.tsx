@@ -1,6 +1,8 @@
 import React from 'react';
 import { Flex, Box, Image, Text, Divider, Link } from '@chakra-ui/react';
 
+import { techAndTools } from '../../public/data/techAndTools';
+
 const About = () => {
   return (
     <Flex
@@ -124,97 +126,18 @@ const About = () => {
           data-aos="fade-left"
           data-aos-delay="700"
         >
-          <Box className="tools">
-            <Image
-              src="/html-logo.png"
-              alt="html 5 logo"
-              w={{ base: '2rem', sm: '2rem', md: '2rem', lg: '3rem', xl: '3rem', '2xl': '3rem' }}
-            />
-            <Text color="#8c9095" fontWeight="bold" fontSize="sm">
-              HTML 5
-            </Text>
-          </Box>
-          <Box className="tools">
-            <Image
-              src="/css-logo.webp"
-              alt="css3 logo"
-              w={{ base: '2rem', sm: '2rem', md: '2rem', lg: '3rem', xl: '3rem', '2xl': '3rem' }}
-            />
-            <Text color="#8c9095" fontWeight="bold" fontSize="md">
-              CSS 3
-            </Text>
-          </Box>
-          <Box className="tools">
-            <Image
-              src="/js-logo.png"
-              alt="javascript logo"
-              borderRadius={'10px'}
-              w={{ base: '2rem', sm: '2rem', md: '2rem', lg: '3rem', xl: '3rem', '2xl': '3rem' }}
-            />
-            <Text color="#8c9095" fontWeight="bold" fontSize="md">
-              JavaScript
-            </Text>
-          </Box>
-          <Box className="tools">
-            <Image
-              src="/typescript-logo.png"
-              alt="typescript logo"
-              w={{ base: '2rem', sm: '2rem', md: '2rem', lg: '3rem', xl: '3rem', '2xl': '3rem' }}
-            />
-            <Text color="#8c9095" fontWeight="bold" fontSize="md">
-              TypeScript
-            </Text>
-          </Box>
-          <Box className="tools">
-            <Image
-              src="/node-logo.webp"
-              alt="node logo"
-              w={{ base: '2rem', sm: '2rem', md: '2rem', lg: '3rem', xl: '3rem', '2xl': '3rem' }}
-            />
-            <Text color="#8c9095" fontWeight="bold" fontSize="md">
-              NodeJS
-            </Text>
-          </Box>
-          <Box className="tools">
-            <Image
-              src="/nextjs.png"
-              alt="next logo"
-              w={{ base: '2rem', sm: '2rem', md: '2rem', lg: '3rem', xl: '3rem', '2xl': '3rem' }}
-            />
-            <Text color="#8c9095" fontWeight="bold" fontSize="md">
-              NextJS
-            </Text>
-          </Box>
-          <Box className="tools">
-            <Image
-              src="/react.webp"
-              alt="react logo"
-              w={{ base: '2rem', sm: '2rem', md: '2rem', lg: '3rem', xl: '3rem', '2xl': '3rem' }}
-            />
-            <Text color="#8c9095" fontWeight="bold" fontSize="md">
-              ReactJS
-            </Text>
-          </Box>
-          <Box className="tools">
-            <Image
-              src="/vue.png"
-              alt="vue logo"
-              w={{ base: '2rem', sm: '2rem', md: '2rem', lg: '3rem', xl: '3rem', '2xl': '3rem' }}
-            />
-            <Text color="#8c9095" fontWeight="bold" fontSize="md">
-              VueJS
-            </Text>
-          </Box>
-          <Box className="tools">
-            <Image
-              src="/mongo.webp"
-              alt="mongodb logo"
-              w={{ base: '2rem', sm: '2rem', md: '2rem', lg: '3rem', xl: '3rem', '2xl': '3rem' }}
-            />
-            <Text color="#8c9095" fontWeight="bold" fontSize="md">
-              MongoDB
-            </Text>
-          </Box>
+          {techAndTools.map((tool) => (
+            <Box className="tools" key={tool.id}>
+              <Image
+                src={tool.src}
+                alt={tool.alt}
+                w={{ base: '2rem', sm: '2rem', md: '2rem', lg: '3rem', xl: '3rem', '2xl': '3rem' }}
+              />
+              <Text color={tool.textColor} fontWeight="bold" fontSize="sm">
+                {tool.toolName}
+              </Text>
+            </Box>
+          ))}
         </Flex>
       </Box>
     </Flex>
