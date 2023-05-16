@@ -55,7 +55,7 @@ const Projects = () => {
           gap="5rem"
         >
           <Image
-            src="/techtime.png"
+            src="/project-images/techtime.png"
             alt="Tech Time Project Preview"
             width={'40rem'}
             borderRadius="8px"
@@ -206,7 +206,7 @@ const Projects = () => {
             </Flex>
           </Box>
           <Image
-            src="/countries-preview.png"
+            src="/project-images/countries-preview.png"
             alt="Countries Project Preview"
             width={'40rem'}
             borderRadius="8px"
@@ -230,7 +230,7 @@ const Projects = () => {
           gap="5rem"
         >
           <Image
-            src="/devfinder-preview.png"
+            src="/project-images/devfinder-preview.png"
             alt="DevFinder Project Preview"
             width={'40rem'}
             borderRadius="8px"
@@ -379,7 +379,7 @@ const Projects = () => {
             </Flex>
           </Box>
           <Image
-            src="/e-commerce-preview.png"
+            src="/project-images/e-commerce-preview.png"
             alt="Countries Project Preview"
             width={'40rem'}
             borderRadius="8px"
