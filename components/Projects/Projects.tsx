@@ -43,12 +43,10 @@ const Projects = () => {
         />
       </Flex>
 
-      {projectData.map((project) => (
-        <Box
-          mb={{ base: '5rem', sm: '5rem', md: '10rem', lg: '10rem', xl: '10rem', '2xl': '10rem' }}
-          key={project.id}
-        >
+      <Box>
+        {projectData.map((project) => (
           <Flex
+            key={project.id}
             flexDirection={{
               base: 'column',
               sm: 'column',
@@ -59,6 +57,8 @@ const Projects = () => {
             }}
             alignItems="center"
             gap="5rem"
+            _even={{ flexDirection: 'row-reverse' }}
+            mb={{ base: '5rem', sm: '5rem', md: '10rem', lg: '10rem', xl: '10rem', '2xl': '10rem' }}
           >
             <Image
               src={project.previewImgSrc}
@@ -129,8 +129,8 @@ const Projects = () => {
               </Flex>
             </Box>
           </Flex>
-        </Box>
-      ))}
+        ))}
+      </Box>
     </Box>
   );
 };
