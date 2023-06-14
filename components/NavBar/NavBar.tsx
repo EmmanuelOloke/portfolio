@@ -156,6 +156,13 @@ const NavBar = () => {
                   GitHub
                 </Link>
                 <Link
+                  className="nav-link"
+                  href="https://linkedin.com/in/emmanuel-oloke"
+                  target="_blank"
+                >
+                  LinkedIn
+                </Link>
+                <Link
                   href="/resume.pdf"
                   target="_blank"
                   outline="solid"
