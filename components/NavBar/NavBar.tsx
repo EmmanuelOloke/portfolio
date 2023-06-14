@@ -89,6 +89,21 @@ const NavBar = () => {
           >
             GitHub
           </Link>
+          <Link
+            className="nav-link"
+            href="https://linkedin.com/in/emmanuel-oloke"
+            target="_blank"
+            display={{
+              base: 'none',
+              sm: 'none',
+              md: 'none',
+              lg: 'block',
+              xl: 'block',
+              '2xl': 'block',
+            }}
+          >
+            LinkedIn
+          </Link>
           <IconButton
             display={{
               base: 'none',
