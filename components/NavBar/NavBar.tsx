@@ -152,7 +152,9 @@ const NavBar = () => {
                 </Text>
                 <Link href="#about">About</Link>
                 <Link href="#projects">Projects</Link>
-                <Link href="#contact">Contact</Link>
+                <Link className="nav-link" href="https://github.com/EmmanuelOloke" target="_blank">
+                  GitHub
+                </Link>
                 <Link
                   href="/resume.pdf"
                   target="_blank"
