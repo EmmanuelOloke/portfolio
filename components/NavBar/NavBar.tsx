@@ -76,7 +76,8 @@ const NavBar = () => {
           </Link>
           <Link
             className="nav-link"
-            href="#contact"
+            href="https://github.com/EmmanuelOloke"
+            target="_blank"
             display={{
               base: 'none',
               sm: 'none',
@@ -86,7 +87,7 @@ const NavBar = () => {
               '2xl': 'block',
             }}
           >
-            Contact
+            GitHub
           </Link>
           <IconButton
             display={{
