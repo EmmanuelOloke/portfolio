@@ -7,6 +7,8 @@ import { useEffect } from 'react';
 
 import theme from '../theme';
 
+import { Analytics } from '@vercel/analytics/react';
+
 import '@fortawesome/fontawesome-svg-core/styles.css';
 import { config } from '@fortawesome/fontawesome-svg-core';
 config.autoAddCss = false;
@@ -37,7 +39,7 @@ function MyApp({ Component, pageProps }: AppProps) {
       </Head>
       <ColorModeScript initialColorMode={theme.config.initialColorMode} />
       <ChakraProvider theme={theme}>
-        <Component {...pageProps} />
+        <Component {...pageProps} /> <Analytics />
       </ChakraProvider>
     </>
   );
