@@ -76,9 +76,9 @@ const About = () => {
           data-aos="fade-left"
           data-aos-delay="300"
         >
-          Hello! My name is Emmanuel. I enjoy building well-structured and aesthetically pleasing
+          Hello! My name is Emmanuel. I enjoy building well structured and aesthetically pleasing
           software. I first picked interest in web development as a teenager and that influenced my
-          decision to study Computer Science as my first degree.
+          decision to pursue a BSc. in Computer Science as my first degree.
         </Text>
         <Text
           mb={'2rem'}
@@ -86,8 +86,8 @@ const About = () => {
           data-aos="fade-left"
           data-aos-delay="400"
         >
-          Fast forward to now, a lot has happened. I have been priviledged to work as a web
-          developer for a{' '}
+          Fast forward to now, a lot has happened. I have been privileged to work as a web developer
+          for a{' '}
           <Link color="#8c9095" href="https://shiffishutterz.com" target="_blank">
             photography studio
           </Link>
