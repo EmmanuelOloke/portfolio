@@ -65,10 +65,17 @@ export const techAndTools: TechTools[] = [
     toolName: 'MongoDB',
   },
   {
-    id: 9,
+    id: 10,
     src: '/tech-images/tailwind.png',
     alt: 'tailwindcss logo',
     textColor: '#8c9095',
     toolName: 'TailwindCSS',
+  },
+  {
+    id: 11,
+    src: '/tech-images/firebase.png',
+    alt: 'firebase logo',
+    textColor: '#8c9095',
+    toolName: 'Firebase',
   },
 ];
