@@ -64,4 +64,11 @@ export const techAndTools: TechTools[] = [
     textColor: '#8c9095',
     toolName: 'MongoDB',
   },
+  {
+    id: 9,
+    src: '/tech-images/tailwind.png',
+    alt: 'tailwindcss logo',
+    textColor: '#8c9095',
+    toolName: 'TailwindCSS',
+  },
 ];
