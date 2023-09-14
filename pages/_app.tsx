@@ -32,7 +32,7 @@ function MyApp({ Component, pageProps }: AppProps) {
   return (
     <>
       <Head>
-        <title>Emmanuel Oloke</title>
+        <title>Emmanuel Oloke | Software Engineer</title>
         <meta name="viewport" content="minimum-scale=1, initial-scale=1, width=device-width" />
         <meta name="description" content="Software Engineer" />
         <link rel="icon" href="/favicon.ico" />
