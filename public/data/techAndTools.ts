@@ -78,4 +78,18 @@ export const techAndTools: TechTools[] = [
     textColor: '#8c9095',
     toolName: 'Firebase',
   },
+  {
+    id: 12,
+    src: '/tech-images/react-query.png',
+    alt: 'react query logo',
+    textColor: '#8c9095',
+    toolName: 'React Query',
+  },
+  {
+    id: 13,
+    src: '/tech-images/docker.webp',
+    alt: 'docker logo',
+    textColor: '#8c9095',
+    toolName: 'Docker',
+  },
 ];
