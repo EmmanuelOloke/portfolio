@@ -100,8 +100,13 @@ const About = () => {
           data-aos="fade-left"
           data-aos-delay="500"
         >
-          Now I am transitioning back into the tech industry leveraging on old and new experiences
-          to build modern software solutions and chart a renewed career path.
+          Now I work with{' '}
+          <Link color="#8c9095" href="https://www.kiakiafx.com/" target="_blank">
+            KiaKia Finance
+          </Link>{' '}
+          leveraging on old and new experiences to build modern software solutions for the currency
+          exchange industry, making transacting with different currencies seamless and accessible to
+          thousands of customers
         </Text>
         <Text
           fontSize={{
