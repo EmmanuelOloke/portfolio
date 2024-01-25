@@ -17,7 +17,7 @@ import {
   DrawerContent,
   DrawerCloseButton,
 } from '@chakra-ui/react';
-import { FaCode, FaSun, FaMoon, FaBars, FaTimes } from 'react-icons/fa';
+import { FaCode, FaSun, FaMoon, FaBars } from 'react-icons/fa';
 
 const NavBar = () => {
   const { colorMode, toggleColorMode } = useColorMode();
@@ -42,7 +42,9 @@ const NavBar = () => {
         w={{ base: '87vw', sm: '80vw', md: '80vw', lg: '88vw', xl: '87vw', '2xl': '75vw' }}
       >
         <Box>
-          <Icon as={FaCode} fontSize="3xl" />
+          <Link href="/">
+            <Icon as={FaCode} fontSize="3xl" />
+          </Link>
         </Box>
 
         <Flex gap={14} alignItems="center" textTransform="uppercase" fontWeight="bold">

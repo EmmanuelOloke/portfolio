@@ -20,6 +20,7 @@ const About = () => {
       gap={{ base: 20, sm: 20, md: 20, lg: 50, xl: '8rem', '2xl': '12rem' }}
       justifyContent={'center'}
       alignItems={'center'}
+      scrollMarginTop="6rem"
     >
       <Flex
         display={{ base: 'flex', sm: 'flex', md: 'flex', lg: 'none', xl: 'none', '2xl': 'none' }}
