@@ -19,6 +19,7 @@ import '../components/Contact/style.css';
 import '../components/Projects/style.css';
 import '../components/NavBar/style.css';
 import 'aos/dist/aos.css';
+import GoogleAnalytics from '../components/GoogleAnalytics';
 
 function MyApp({ Component, pageProps }: AppProps) {
   useEffect(() => {
@@ -39,6 +40,7 @@ function MyApp({ Component, pageProps }: AppProps) {
       </Head>
       <ColorModeScript initialColorMode={theme.config.initialColorMode} />
       <ChakraProvider theme={theme}>
+        <GoogleAnalytics />
         <Component {...pageProps} /> <Analytics />
       </ChakraProvider>
     </>
