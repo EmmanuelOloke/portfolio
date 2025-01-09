@@ -17,7 +17,7 @@ const Footer = () => {
         }}
       >
         Designed and Developed with 💙 by{' '}
-        <Link href="https://linkedin.com/in/emmanuel-oloke" target="_blank">
+        <Link href="https://linkedin.com/in/emmanueloloke" target="_blank">
           Emmanuel Oloke
         </Link>
         .
