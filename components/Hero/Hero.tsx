@@ -1,5 +1,6 @@
 import react from 'react';
 import { Box, Text, Flex, Link, Button, Image } from '@chakra-ui/react';
+import { headlineText, linkToTechnicalArticles } from '../../public/data/constants';
 
 const Hero = () => {
   return (
@@ -50,9 +51,15 @@ const Hero = () => {
           mt={5}
           w={{ base: '20rem', sm: '25rem', md: '35rem', lg: '35rem', xl: '35rem', '2xl': '35rem' }}
         >
-          I am a software engineer with proficiency in building highly aesthetic and functional
-          software products, while paying keen attention to industry standards such as
-          accessibility, SEO, performance, and responsiveness.
+          {headlineText}
+          <Link
+            href={linkToTechnicalArticles}
+            fontWeight="semibold"
+            textDecoration="underline"
+            isExternal
+          >
+            Technical Articles
+          </Link>
         </Text>
         <Button
           data-aos="fade-up"
