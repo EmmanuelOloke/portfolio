@@ -93,7 +93,7 @@ const NavBar = () => {
           </Link>
           <Link
             className="nav-link"
-            href="https://linkedin.com/in/emmanuel-oloke"
+            href="https://linkedin.com/in/emmanueloloke"
             target="_blank"
             display={{
               base: 'none',
