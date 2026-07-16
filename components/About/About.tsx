@@ -102,7 +102,7 @@ const About = () => {
           data-aos-delay="500"
         >
           Now I work at{' '}
-          <Link color="#8c9095" href="https://www.kiakiafx.com/" target="_blank">
+          <Link color="#8c9095" href="https://www.kiakiafinance.com/" target="_blank">
             KiaKia Finance
           </Link>{' '}
           leveraging on old and new experiences to build modern software solutions for the currency
